@@ -1,1 +1,184 @@
+It was 5 interviews, pair programming on data structure and code structure, one system design, one manager interview and one values interview.
+Each interview was about an hour, each with only one person. All interviewers were very nice and polite. I had a very good experience overall.
+For the coding interviews it is important to do TDD. They start from a simple problem then requirement is changed to be more complicated and this goes on as long as there is time.
+
+
+- The data structure: count and rate teams votes that can be found on leetcode.
+- The code structure: design a routing class
+- System design: design a tagging service for different Atlassian products
+- Manager interview: focus on collaboration within the team, resolve conflicts, etc to see if the candidate is a good fit for the team
+- Values interview: focused on customer empathy and checks whether candidate is a good fit for the company (is aligned with the company values)
+
+
+Browser Coding - Create a file directory structure using some JSON data provided
+Javascript Interview - Make an async promise call from a function and display data in paginated format. Then kept scaling up the question.
+
+=====================================================================================================================================================
+
+Applied online and the recruiter contacted me for an initial discussion. Recruiter asked some basic questions and put me through to the next coding interviews. I was told 2 rounds, one was more of code design round and another was data structures.
+
+For design round, I was asked to write code for a snake game, and I felt it was bit odd to ask that in the code design round as it involved using linked lists and it took a while to get the data structure implemented and to get the core game logic coded and didn't had enough time to actually showcase code structure/design experience.
+
+Second round, counting votes question as mentioned by others here, but the interviewer didn't explain the problem correctly and I had to ask multiple times to get a clear understanding of the question which itself took first 20 minutes, and by the time I was close to completing the code, time was over and we had to end.
+
+Snake game and counting votes
+
+Round 1: design a sample router
+Round 2: design a voting system
+
+
+1. Design a rate limiter.
+2. Design a file tag system or voting system.
+3. Design a tagging system for Atlassian Products.
+4. Questions about Atlassian values.
+5. Questions about your professional experience.
+
+
+==========================================================================
+
+What tests do you perform before deploying a new feature?
+
+======================================================================================================
+
+a token assignment algorithm.
+
+Code design round - I was given the question to write a Rate limiter which they do most of the time.
+Unlike what the name suggests, it's not a code design round but was a coding round where they judge you on program correctness rather than LLD.
+I gave an implementation of a Rate limiter based on the sliding window algorithm but the interviewer asked me to implement the token bucket algorithm which he knew about.
+All the time the interviewer behaved like he was the smartest person. He was not collaborative, not open to solutions which he did not know.
+
+================================================================================================================
+
+Q1 - Given a list of files with multiple tags associated with them, group the files based on tags and return a list of top tags based on total file size.
+Q2 - Design a Rate limiter.
+
+===================================================================================================================
+
+Round 1: Standard leetcode easy
+Round 2: Code Design, main focus was on oops concept
+Round 3: leetcode easy
+
+=======================================================================================================================
+
+First Round : A project was given and had to identify bugs
+Second round : Three parts
+a) description about recent project done ,mainly focused on architecture
+b) Technical questions on web services
+c) Related to DB connection pool
+Third Round : Company values related by leadership
+
+============================================================================================================
+
+Rate Limit Program and
+Design and develop Voting system
+LC Easy on string manipulation
+
+==========================================================================================================
+
+1) API Rate Limiter
+2) string parsing and hashmap
+
+
+==============================================================================================================
+
+
+Design API Rate limiter.
+
+Explain complete functioning of a web page submission and processing (DNS, Http Methods, Request Response Headers, Cookies, Content Type, How MVC frameworks usually works, CORS, SSL/TLS, TCP/UDP) etc.
+
+System Design - Common tagging service used by multiple products to store tags applied on the contents of these products.
+
+======================================================================================================================================
+
+Code Interview with 3 sections, the code was supplied. 3 sections of questions. First one is TDD and little bug fixing. Second is feature development. Third one is making the code multithreaded.
+
+I had time to go through only the first 2 sections so no multithreading questions were asked.
+
+The recruiter came back and told me I did just fine, and that I needed to prove more.
+
+Another technical round was set up. this one was bit thorough, talked about my project and deep dig on what/why of some decisions. Then Security related questions were asked. Then there was a design exercise, where I had to implement new feature and required to take care of some edge conditions and workflow related issues in the feature.
+
+That went well, we had some post interview discussions about how Atlassian works etc.
+
+After this recruiter came back and wanted to discuss which team and level I would be offered if I proceeded to the final stage and how much money will be offered. It was a pay cut for me so I did not proceed further with the role.
+
+====================================================================================================================
+
+TDD, and feature development
+
+==========================================================================================================================
+
+Interview Questions
+Why do you like Java?
+1 Answer
+Java memory model and how GC works?
+Answer Question
+How you will fight concurrency problems in NodeJS? How that different from Java?
+Answer Question
+How you avoid ConcurrentModificationException? They don't want to hear about Java concurrent collections, more how would you do it without them.
+Answer Question
+
+=============================================================================================================================
+
+Interview Questions
+Implement Permissions
+Answer Question
+Implement auto assign ticket algo
+Answer Question
+
+==========================================================
+
+
+talking about pair programming you should be familiar with Junit + mockito and basic core java and collections , they will share a zip file containing a project (simple core java based ) having Junit test cases , and a pdf file containing several tasks like fixing a code / writing junit for specific method/functionality ,
+key thing here is to understand the project because tasks in the pdf are very simple if you understand the project completely .
+
+================================================================================================
+
+System design concepts and string related coding problem
+
+===================================================================================================
+
+They focus in multi threading and you can handle it.
+And also they check if you are good team player.
+
+=================================================================
+
+Java connection pool
+Answer Question
+Sample Java code with junit tests. Need to fix the bugs.
+Answer Question
+Questions from microservices architecture, your role in current project, challenges faced in current project and how you overcome .
+Answer Question
+
+=====================================================================================================
+
+1. some demo project (implementation and unit tests)
+2. project questions
+3. connection pool implementation
+
+=============================================================
+
+Estimate traffic on a website
+
+====================================================
+
+Implement a known coding pattern from scratch and explain along the decisions made there.
+
+===========================================================
+
+Third Round: Java Concurrency Problem. Factory design pattern.
+
+===================================================================
+
+Among the questions/coding tasks I remember:
+
+* Find a common ancestor in a graph
+* Solve a problem using the Either Haskell datatype but implemented in Java
+* How the Java Classloader works
+* Extend and write some unit test on an proposed architecture
+* Write a parser for a hellish file
+
+===========================================================================
+
+Most effective concrete to achieve List.contains(e) in Java, and why?
 

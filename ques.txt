@@ -1,0 +1,9 @@
+
+1. number of platforms
+2. divide and conquer
+3. rain water harvesting
+4. primality sieve of eratotheses
+5. spiral matrix
+6. tough graph questions
+7. design LRU
+8. dutch theorem
