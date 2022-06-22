@@ -1,1 +1,5 @@
-
+- The data structure: count and rate teams votes that can be found on leetcode.
+- The code structure: design a routing class
+- System design: design a tagging service for different Atlassian products
+- Manager interview: focus on collaboration within the team, resolve conflicts, etc to see if the candidate is a good fit for the team
+- Values interview: focused on customer empathy and checks whether candidate is a good fit for the company (is aligned with the company values)
