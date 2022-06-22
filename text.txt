@@ -8,3 +8,7 @@ For the coding interviews it is important to do TDD. They start from a simple pr
 - System design: design a tagging service for different Atlassian products
 - Manager interview: focus on collaboration within the team, resolve conflicts, etc to see if the candidate is a good fit for the team
 - Values interview: focused on customer empathy and checks whether candidate is a good fit for the company (is aligned with the company values)
+
+
+Browser Coding - Create a file directory structure using some JSON data provided
+Javascript Interview - Make an async promise call from a function and display data in paginated format. Then kept scaling up the question.
