@@ -1,3 +1,8 @@
+It was 5 interviews, pair programming on data structure and code structure, one system design, one manager interview and one values interview.
+Each interview was about an hour, each with only one person. All interviewers were very nice and polite. I had a very good experience overall.
+For the coding interviews it is important to do TDD. They start from a simple problem then requirement is changed to be more complicated and this goes on as long as there is time.
+
+
 - The data structure: count and rate teams votes that can be found on leetcode.
 - The code structure: design a routing class
 - System design: design a tagging service for different Atlassian products
