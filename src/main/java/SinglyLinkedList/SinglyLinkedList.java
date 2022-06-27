@@ -61,6 +61,26 @@ public class SinglyLinkedList {
 
     }
 
+    private static ListNode insertNodeAtEnd(ListNode head,int data)
+    {
+
+        if(head==null)
+            return new ListNode(data);
+
+        ListNode newNode = new ListNode(data);
+
+       ListNode temp = head;
+
+       while (temp.next!=null)
+       {
+           temp = temp.next;
+       }
+temp.next = newNode;
+
+       return head;
+
+    }
+
     public static void main(String[] args) {
         SinglyLinkedList singlyLinkedList = new SinglyLinkedList();
         ListNode first = new ListNode(10);
@@ -73,6 +93,10 @@ public class SinglyLinkedList {
         System.out.println("length of the linked list is :: "+length(first));
 
         first = insertNodeAtStart(first, 80);
+
+        printList(first);
+
+        first = insertNodeAtEnd(first, 90);
 
         printList(first);
     }
