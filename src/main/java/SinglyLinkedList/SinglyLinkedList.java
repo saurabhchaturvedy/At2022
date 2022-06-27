@@ -75,9 +75,43 @@ public class SinglyLinkedList {
        {
            temp = temp.next;
        }
-temp.next = newNode;
+           temp.next = newNode;
 
        return head;
+
+    }
+
+
+    private static ListNode deleteFirst(ListNode head)
+    {
+        if(head==null || head.next==null) return null;
+     //   1->2
+        ListNode temp = head.next;
+        head.next = null;
+        head=temp;
+
+        return head;
+
+
+    }
+
+    private static ListNode deleteLast(ListNode head)
+    {
+        if(head==null || head.next==null) return null;
+        //   1->2
+        ListNode temp = head;
+        ListNode previous = null;
+
+        while (temp.next!=null)
+        {
+
+            previous=temp;
+            temp=temp.next;
+
+        }
+
+        previous.next=null;
+        return head;
 
     }
 
@@ -97,6 +131,17 @@ temp.next = newNode;
         printList(first);
 
         first = insertNodeAtEnd(first, 90);
+
+        System.out.println();
+        printList(first);
+
+        first = deleteFirst(first);
+
+        System.out.println();
+        printList(first);
+
+        first = deleteLast(first);
+        System.out.println();
 
         printList(first);
     }
