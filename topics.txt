@@ -1,1 +1,12 @@
 
+LinkedList
+BinaryTree
+BST
+Double Linked List
+Design Patterns
+Graph
+Stack
+Queue
+Heap
+Sort Algo
+Search Algo
